@@ -1,4 +1,4 @@
-<?php getFile(PREV_FOLDER."app/checkUser");   ?>
+<?php getFile(FOLDER_PATH."app/checkUser");   ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,7 +46,7 @@
         <a class="nav-link" href="<?php  url("users/profile"); ?>">Profile</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php  url("products/logout"); ?>">Logout</a>
+        <a class="nav-link" href="<?php  url("logout"); ?>">Logout</a>
       </li>
       
     </ul>
